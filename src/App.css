@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.keyPad{
+  margin: auto;
+}
+
+.keyPadTable{
+  margin: auto;
+  width: 12%;
+  align-content: center;
+}
+
+.displayMessage{
+  display: flex;
+  justify-content: center;
+  color: brown;
+}
+.numberInPad {
+  border: 3px solid teal;
+  cursor: pointer;
+}
+
+.nonNumberInPad {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.mainKeyInMad {
+  margin: auto;
+  width: 50%;
+  font-weight: bolder;
+}
+.subKeysInPab {
+  margin: auto;
+  width: 90%;
+  padding-left: 3px;
+  color: black;
+}
+
+.grayedOutSubKey {
+  margin: auto;
+  color: grey;
+}
+
+.showKeyPressed{
+  font-weight: bold;
+  color: darkgoldenrod;
+}
